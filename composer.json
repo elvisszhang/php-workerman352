@@ -33,7 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Workerman\\": "./"
+            "Workerman\\": "./",
+            "Workerman\\Connection\\": "Connection/",
+            "Workerman\\Events\\": "Events/",
+            "Workerman\\Events\\React\\": "Events/React/",
+            "Workerman\\Lib\\": "Lib/",
+            "Workerman\\Protocols\\": "Protocols/"
         }
     },
     "minimum-stability": "dev"
